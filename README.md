@@ -9,24 +9,29 @@ Projeto em cooperação para estudos de git e padrões de projeto
 ```bash
 startupland-project/
 │
-├── src/                      # Todo o código-fonte do projeto
+├── public/                   # Tudo que vai "direto pro navegador"
 │   ├── index.html            # Página inicial
-│   ├── css/
-│   │   ├── style.css         # Estilos principais
-│   │   └── reset.css         # Reset/normalização de estilos (opcional)
-│   ├── js/
-│   │   ├── main.js           # Lógica principal
-│   │   └── utils.js          # Funções auxiliares (opcional)
-│   └── assets/
-│       ├── img/              # Imagens
-│       ├── fonts/            # Fontes personalizadas
-│       └── icons/            # Ícones SVG ou PNG
+│   ├── favicon.ico           # Ícone do site
+│   ├── manifest.json         # (opcional) PWA / metadata
+│   └── assets/               # Imagens, fontes, ícones
+│       ├── img/
+│       ├── fonts/
+│       └── icons/
 │
-├── dist/                     # Arquivos gerados para produção (opcional)
+├── src/                      # Código-fonte que pode ser processado
+│   ├── css/
+│   │   ├── style.css
+│   │   └── reset.css
+│   ├── js/
+│   │   ├── main.js
+│   │   └── utils.js
+│   └── components/           # (opcional) Componentes/modularização
+│
+├── dist/                     # Saída de build (gerada automaticamente)
 │   └── ...
 │
-├── README.md                 # Descrição do projeto
-└── package.json              # Dependências (opcional se usar npm)
+├── README.md
+└── package.json
 ```
 
 ---
