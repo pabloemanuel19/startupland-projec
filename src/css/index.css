@@ -16,6 +16,7 @@ RESET CSS
 
   --color-terciary: #353448;
   --white: #ffffff;
+  --emphasis: #a29bfe;
 }
 
 /* RESET CSS EXTREMAMENTE SIMPLES, VOCÊ DEVE PESQUISAR UM ATUAL E UTILIZAR*/
@@ -41,9 +42,19 @@ body {
   justify-content: center;
   height: 100dvh;
 }
+
 .container_title h1 {
   font-size: 4.4rem;
   color: var(--white);
   font-weight: 900;
   text-align: center;
+}
+
+.repository {
+  color: var(--white);
+}
+
+.repository a {
+  color: var(--emphasis);
+  font-weight: 700;
 }
