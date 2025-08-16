@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+/* 
+ADICIONE NESSE ARQUIVO:
+TAMANHOS DE FONTE
+FONTES - BUSQUE NO GOOGLE FONTS E USE @IMPORTE NO INÍCIO DO ARQUIVO
+VARIAVEIS DE CORES ROOT
+CLASSES DE ESTILO GLOBAIS
+RESET CSS 
+
+*/
+:root {
+  /* Exemplo */
+  --font: "DM Sans", sans-serif;
+  font-size: 62.5%;
+
+  --color-terciary: #353448;
+  --white: #ffffff;
+}
+
+/* RESET CSS EXTREMAMENTE SIMPLES, VOCÊ DEVE PESQUISAR UM ATUAL E UTILIZAR*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-terciary);
+  font-family: var(--font);
+  font-optical-sizing: auto;
+  font-size: 1.6rem;
+  font-style: normal;
+}
+
+.container_title {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+}
+.container_title h1 {
+  font-size: 4.4rem;
+  color: var(--white);
+  font-weight: 900;
+  text-align: center;
+}

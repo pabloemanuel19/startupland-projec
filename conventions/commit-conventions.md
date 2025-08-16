@@ -31,6 +31,7 @@ Este documento define o padrão para mensagens de commit neste repositório, gar
 | ci       | Alterações em scripts de integração contínua.                      |
 | chore    | Tarefas diversas que não afetam o código de produção.              |
 | revert   | Reversão de commit anterior.                                       |
+| cleanup  | Limpeza de código (comentários por exemplo.).                      |
 
 ---
 
