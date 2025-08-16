@@ -18,20 +18,21 @@ Este documento define o padrão para mensagens de commit neste repositório, gar
 
 ## Tipos de commit:
 
-| Tipo     | Descrição                                                          |
-| -------- | ------------------------------------------------------------------ |
-| feat     | Nova funcionalidade.                                               |
-| fix      | Correção de bug.                                                   |
-| docs     | Alterações na documentação (README, etc.).                         |
-| style    | Ajustes que não afetam a lógica (espaços, ponto e vírgula, etc.).  |
-| refactor | Alterações no código que não corrigem bugs nem adicionam recursos. |
-| perf     | Melhorias de desempenho.                                           |
-| test     | Adição ou modificação de testes.                                   |
-| build    | Alterações em build, dependências ou ferramentas.                  |
-| ci       | Alterações em scripts de integração contínua.                      |
-| chore    | Tarefas diversas que não afetam o código de produção.              |
-| revert   | Reversão de commit anterior.                                       |
-| cleanup  | Limpeza de código (comentários por exemplo.).                      |
+| Tipo        | Descrição                                                          |
+| ----------- | ------------------------------------------------------------------ |
+| feat        | Nova funcionalidade.                                               |
+| fix         | Correção de bug.                                                   |
+| docs        | Alterações na documentação (README, etc.).                         |
+| style       | Ajustes que não afetam a lógica (espaços, ponto e vírgula, etc.).  |
+| refactor    | Alterações no código que não corrigem bugs nem adicionam recursos. |
+| perf        | Melhorias de desempenho.                                           |
+| test        | Adição ou modificação de testes.                                   |
+| build       | Alterações em build, dependências ou ferramentas.                  |
+| ci          | Alterações em scripts de integração contínua.                      |
+| chore       | Tarefas diversas que não afetam o código de produção.              |
+| revert      | Reversão de commit anterior.                                       |
+| cleanup     | Limpeza de código (comentários por exemplo.).                      |
+| improvement | Qualquer melhoria de código que não se encaixe em outro tipo       |
 
 ---
 
